@@ -1,1 +1,834 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rev. Salang · First pastor of the Zotung-Chin people</title>
+<meta name="description" content="In memory of Rev. Salang (Rev. Sa Lang), first pastor of the Zotung-Chin people. He walked everywhere to carry the Word, and he went first to the poorest.">
+<meta name="theme-color" content="#F3F2EE">
+<meta name="author" content="The family of Rev. Salang">
 
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rev. Salang · First pastor of the Zotung-Chin people">
+<meta property="og:description" content="He walked everywhere to carry the Word, and he went first to the poorest.">
+<meta property="og:image" content="images/rev-salang.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23F3F2EE'/%3E%3Cpath d='M4 16 L16 5 L28 16' stroke='%238E1B1B' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='9' y='16' width='14' height='11' fill='%232F6B4F'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;600;700&display=swap">
+
+<style>
+/* ============================================================
+   Rev. Salang — memorial site
+   Palette taken from the hall itself: red roof, green walls,
+   ink on paper. Nothing else.
+   ============================================================ */
+:root{
+  --paper:#F3F2EE;
+  --paper-2:#E7E5DE;
+  --paper-3:#E9EDE6;   /* pale sage — the hills */
+  --ink:#1C1B19;
+  --ink-2:#4B4944;
+  --ink-3:#7A756C;
+  --roof:#8E1B1B;
+  --roof-2:#701414;
+  --wall:#2F6B4F;
+  --rule:rgba(28,27,25,.9);
+  --on-dark:#F3F2EE;
+  --on-dark-2:#CFCCC4;
+  --on-dark-3:#A9A59B;
+  --display:'Libre Caslon Text', Georgia, 'Times New Roman', serif;
+  --body:'Public Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color-scheme: light;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:18px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+[hidden]{display:none!important}
+
+a{color:inherit;text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:var(--roof)}
+:focus-visible{outline:3px solid var(--roof);outline-offset:3px;border-radius:2px}
+
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance;letter-spacing:-.01em}
+p{margin:0;text-wrap:pretty}
+
+.wrap{max-width:1120px;margin:0 auto;padding-inline:24px}
+section{padding-block:88px;scroll-margin-top:80px}
+
+.eyebrow{
+  font-size:13px;letter-spacing:.16em;text-transform:uppercase;
+  font-weight:700;color:var(--roof);margin-bottom:10px;
+}
+.eyebrow--light{color:#E7A3A3}
+
+.skip{
+  position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--on-dark);
+  padding:12px 18px;z-index:100;
+}
+.skip:focus{left:8px;top:8px}
+
+/* ---------- header ---------- */
+header.top{
+  border-bottom:1px solid var(--rule);
+  background:var(--paper);
+  position:sticky;top:0;z-index:20;
+  padding-top:env(safe-area-inset-top,0px);
+}
+header.top .wrap{
+  display:flex;align-items:center;gap:8px 26px;
+  padding-block:8px;flex-wrap:wrap;
+}
+.brand{
+  font-family:var(--display);font-size:22px;text-decoration:none;
+  min-height:44px;display:flex;align-items:center;white-space:nowrap;
+}
+nav.main{display:flex;gap:0 22px;flex-wrap:wrap}
+nav.main a{
+  text-decoration:none;min-height:44px;display:flex;align-items:center;
+  font-size:16px;white-space:nowrap;
+}
+nav.main a:hover{text-decoration:underline}
+@media (max-width:860px){
+  header.top .wrap{
+    flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  header.top .wrap::-webkit-scrollbar{display:none}
+  .brand,nav.main{flex:0 0 auto}
+  nav.main{flex-wrap:nowrap}
+}
+
+/* ---------- hero ---------- */
+.hero{padding-block:72px 56px}
+.hero .wrap{
+  display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);
+  gap:56px;align-items:center;
+}
+@media (max-width:880px){
+  .hero .wrap{grid-template-columns:1fr;gap:36px}
+  .hero{padding-block:48px 40px}
+}
+.portrait{margin:0}
+.portrait .mat{
+  background:#FFFFFF;padding:16px;
+  border:1px solid var(--rule);
+  box-shadow:0 1px 0 var(--rule);
+}
+.portrait img{width:100%;height:auto}
+figcaption{margin-top:12px;font-size:15px;color:var(--ink-3);line-height:1.5}
+
+.hero-text{display:flex;flex-direction:column;gap:18px;min-width:0}
+.hero h1{font-size:clamp(52px,8vw,104px);line-height:.98}
+.dates{
+  font-family:var(--display);font-style:italic;font-size:20px;
+  color:var(--ink-2);line-height:1.4;
+}
+.lede{
+  font-family:var(--display);font-size:clamp(23px,2.6vw,30px);
+  line-height:1.35;max-width:24ch;
+}
+.hero-text > p:not(.lede){max-width:58ch;color:var(--ink-2)}
+
+.btn{
+  align-self:flex-start;min-height:52px;padding:0 28px;
+  display:inline-flex;align-items:center;justify-content:center;
+  background:var(--roof);color:#FFFFFF;font-weight:600;font-size:17px;
+  text-decoration:none;border:0;font-family:inherit;cursor:pointer;
+  transition:background .15s ease;
+}
+.btn:hover{background:var(--roof-2);color:#FFFFFF}
+
+/* ---------- milestones ---------- */
+.milestones{
+  border-block:1px solid var(--rule);
+  background:var(--paper);
+  padding:0;
+}
+.milestones ul{
+  list-style:none;margin:0;padding:0;
+  display:grid;grid-template-columns:repeat(3,1fr);
+}
+.milestones li{
+  padding:22px 24px;border-left:1px solid var(--rule);
+}
+.milestones li:first-child{border-left:0;padding-left:0}
+.milestones li:last-child{padding-right:0}
+.milestones .y{
+  font-family:var(--display);font-size:26px;color:var(--roof);
+  font-variant-numeric:tabular-nums;line-height:1.2;
+}
+.milestones .t{font-size:15px;color:var(--ink-2);margin-top:4px}
+@media (max-width:720px){
+  .milestones ul{grid-template-columns:1fr}
+  .milestones li{border-left:0;border-top:1px solid var(--paper-2);padding-inline:0}
+  .milestones li:first-child{border-top:0}
+}
+
+/* ---------- scripture band ---------- */
+.verse{
+  background:var(--ink);color:var(--on-dark);
+  padding-block:72px;text-align:center;
+}
+.verse blockquote{margin:0 auto;max-width:820px;padding-inline:24px}
+.verse p{
+  font-family:var(--display);font-style:italic;
+  font-size:clamp(24px,3.4vw,38px);line-height:1.35;
+  color:var(--on-dark);
+}
+.verse cite{
+  display:block;margin-top:20px;font-style:normal;
+  font-size:14px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--on-dark-3);
+}
+
+/* ---------- the long walk ---------- */
+.walk{background:var(--paper-3);border-block:1px solid rgba(28,27,25,.14)}
+.walk h2,.hall h2,.voices h2,.archive h2,.share h2{
+  font-size:clamp(32px,4vw,44px);line-height:1.15;
+}
+.walk .intro{max-width:64ch;margin:14px 0 48px;color:var(--ink-2)}
+
+.trail{
+  list-style:none;margin:0;padding:0;position:relative;max-width:780px;
+}
+.trail::before{
+  content:'';position:absolute;left:7px;top:38px;bottom:38px;
+  border-left:2px dashed rgba(28,27,25,.3);
+  -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 60px,#000 calc(100% - 60px),transparent 100%);
+          mask-image:linear-gradient(to bottom,transparent 0,#000 60px,#000 calc(100% - 60px),transparent 100%);
+}
+.trail li{
+  display:grid;grid-template-columns:16px minmax(0,1fr);
+  column-gap:38px;padding-block:26px;
+}
+.trail li::before{
+  content:'';grid-column:1;grid-row:1;align-self:start;
+  width:16px;height:16px;border-radius:50%;margin-top:3px;
+  background:var(--roof);border:3px solid var(--paper-3);
+}
+.trail .station{grid-column:2;min-width:0}
+.trail .yr{
+  font-size:13px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--roof);margin-bottom:6px;
+}
+.trail .yr.open{color:var(--ink-3)}
+.trail h3{font-size:26px;line-height:1.2;margin-bottom:6px}
+.trail p{color:var(--ink-2);max-width:58ch}
+.trail .src{
+  font-size:14px;color:var(--ink-3);margin-top:8px;
+  padding-left:12px;border-left:2px solid rgba(28,27,25,.15);
+}
+.trail-note{
+  margin-top:40px;padding:20px 24px;max-width:780px;
+  background:rgba(255,255,255,.6);border:1px dashed rgba(28,27,25,.25);
+  font-size:16px;color:var(--ink-2);
+}
+.trail-note a{font-weight:600}
+
+/* ---------- timeline (his story) ---------- */
+.timeline{background:var(--ink);color:var(--on-dark)}
+.timeline a{color:var(--on-dark)}
+.timeline h2{font-size:clamp(32px,4vw,44px);line-height:1.15;margin-bottom:14px}
+.timeline .intro{color:var(--on-dark-2);max-width:64ch;margin-bottom:44px}
+
+.tl{list-style:none;margin:0;padding:0}
+.tl li{
+  display:grid;grid-template-columns:150px minmax(0,1fr);
+  column-gap:36px;padding-block:24px;
+  border-top:1px solid rgba(243,242,238,.18);
+}
+.tl li:last-child{border-bottom:1px solid rgba(243,242,238,.18)}
+.tl .yr{
+  font-family:var(--display);font-size:30px;line-height:1.2;
+  font-variant-numeric:tabular-nums;
+}
+.tl .yr.open{color:var(--on-dark-3);font-style:italic;font-size:22px;padding-top:6px}
+.tl h3{font-family:var(--body);font-weight:600;font-size:20px;margin-bottom:4px;line-height:1.35}
+.tl p{color:var(--on-dark-2);max-width:62ch}
+.tl .src{
+  font-size:14px;color:var(--on-dark-3);margin-top:10px;
+  padding-left:12px;border-left:2px solid rgba(243,242,238,.22);
+}
+@media (max-width:680px){
+  .tl li{grid-template-columns:1fr;row-gap:6px}
+  .tl .yr{font-size:24px}
+  .tl .yr.open{font-size:18px;padding-top:0}
+}
+
+/* ---------- the hall ---------- */
+.hall-head{
+  display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;
+  margin-bottom:40px;
+}
+.hall-head > div:first-child{flex:1 1 420px;min-width:0}
+.hall-head p{margin-top:14px;max-width:62ch;color:var(--ink-2)}
+.sign{
+  flex:0 0 auto;font-weight:700;letter-spacing:.08em;
+  color:#1D4E8F;background:#FFFFFF;border:3px solid #6E9BC9;
+  padding:10px 18px;font-size:17px;white-space:nowrap;
+}
+
+.gallery{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px}
+.gallery figure{margin:0;min-width:0}
+.gallery img{width:100%;height:100%;object-fit:cover}
+.g-front{grid-column:span 7}
+.g-gather{grid-column:span 5}
+.g-valley{grid-column:span 12}
+.g-front .frame{aspect-ratio:4/3}
+.g-gather .frame{aspect-ratio:4/3}
+.g-valley .frame{aspect-ratio:16/9}
+.frame{overflow:hidden;background:var(--paper-2);max-width:100%}
+@media (max-width:800px){
+  .g-front,.g-gather,.g-valley{grid-column:span 12}
+  .g-front .frame,.g-gather .frame{aspect-ratio:4/3}
+  .g-valley .frame{aspect-ratio:4/3}
+}
+
+/* ---------- voices ---------- */
+.voices{background:var(--paper-2);border-top:1px solid var(--rule)}
+.voices p.intro{margin:14px 0 36px;max-width:64ch;color:var(--ink-2)}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.voice{
+  background:#FFFFFF;border:1px solid var(--rule);
+  padding:18px;display:flex;align-items:center;gap:16px;
+}
+.play{
+  flex:0 0 56px;width:56px;height:56px;border-radius:50%;border:0;
+  background:var(--wall);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:background .15s ease;
+}
+.play:hover{background:#245640}
+.voice .who{font-weight:600;line-height:1.3}
+.voice .meta{font-size:15px;color:var(--ink-3);margin-top:2px}
+
+/* ---------- archive ---------- */
+.archive{background:#FFFFFF;border-block:1px solid var(--rule)}
+.archive p.intro{margin:14px 0 32px;max-width:64ch;color:var(--ink-2)}
+.srcs{display:flex;flex-direction:column}
+.srcs article{
+  display:flex;flex-wrap:wrap;gap:12px 40px;
+  padding-block:26px;border-top:1px solid var(--rule);
+}
+.srcs article:last-of-type{border-bottom:1px solid var(--rule)}
+.srcs .d{flex:1 1 440px;min-width:0}
+.srcs h3{font-family:var(--body);font-weight:600;font-size:20px;margin-bottom:6px}
+.srcs p{color:var(--ink-2);max-width:62ch}
+.srcs .l{flex:0 1 300px;display:flex;flex-direction:column;gap:2px}
+.srcs .l a{
+  min-height:44px;display:flex;align-items:center;
+  font-weight:600;font-size:16px;
+}
+.wanted{
+  margin:44px 0 0;padding:0;list-style:none;
+  columns:2 300px;column-gap:44px;
+}
+.wanted li{
+  break-inside:avoid;padding:14px 0;
+  border-top:1px solid var(--paper-2);
+}
+.wanted li::before{content:'— ';color:var(--roof)}
+
+/* ---------- share ---------- */
+.share .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:56px}
+@media (max-width:880px){.share .wrap{grid-template-columns:1fr;gap:36px}}
+.share .intro p{margin-top:14px;color:var(--ink-2)}
+form{display:flex;flex-direction:column;gap:16px;min-width:0}
+label{font-weight:600;font-size:15px}
+input,textarea{
+  width:100%;padding:14px 16px;
+  border:1px solid var(--ink);background:#FFFFFF;color:var(--ink);
+  font:inherit;font-size:17px;
+}
+input{min-height:52px}
+textarea{resize:vertical;min-height:140px}
+input:focus,textarea:focus{outline:3px solid var(--roof);outline-offset:1px;border-color:var(--roof)}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.sent{
+  background:var(--wall);color:var(--on-dark);
+  padding:16px 18px;font-size:16px;
+}
+
+/* ---------- footer ---------- */
+footer{
+  background:var(--ink);color:var(--on-dark-3);
+  font-size:15px;line-height:1.6;
+}
+footer .wrap{
+  padding-block:36px;display:flex;flex-wrap:wrap;
+  justify-content:space-between;gap:12px 32px;
+}
+footer a{color:var(--on-dark-2)}
+
+/* ---------- motion ---------- */
+@media (prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth}
+}
+
+/* ---------- print ---------- */
+@media print{
+  header.top,.skip,.share form,.play,.btn{display:none!important}
+  body{background:#fff;color:#000;font-size:12pt}
+  section{padding-block:20px;page-break-inside:avoid}
+  .timeline,.verse,footer{background:#fff;color:#000}
+  .timeline .intro,.tl p,.tl .src,.verse p,footer .wrap{color:#333}
+  a{text-decoration:none}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:9pt;color:#555}
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Rev. Salang</a>
+    <nav class="main" aria-label="Main">
+      <a href="#walk">The Walk</a>
+      <a href="#story">His Story</a>
+      <a href="#hall">The Hall</a>
+      <a href="#voices">Voices</a>
+      <a href="#archive">Archive</a>
+      <a href="#share">Share a Memory</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <figure class="portrait">
+        <div class="mat">
+          <img src="images/rev-salang.jpg"
+               alt="Portrait of Rev. Salang, seated, in a dark suit and blue tie"
+               width="512" height="580" decoding="async">
+        </div>
+        <figcaption>Rev. Salang. <span style="color:var(--ink-3)">[Where and when this photo was taken]</span></figcaption>
+      </figure>
+
+      <div class="hero-text">
+        <div class="eyebrow">In loving memory</div>
+        <h1>Rev. Salang</h1>
+        <div class="dates">[Year of birth] – [Year of passing] · First pastor of the Zotung-Chin people</div>
+        <p class="lede">He walked everywhere to carry the Word, and he went first to the poorest.</p>
+        <p>Rev. Salang — written “Rev. Sa Lang” in the church records — began his gospel work in 1942 and was ordained at Hakha in January 1950. He went on foot to villages that still followed the old spirits and witchcraft, led the young Zotung Baptist churches as their president, and shepherded the Lungngo area for decades.</p>
+        <a class="btn" href="#walk">Walk his journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MILESTONES ============ -->
+  <section class="milestones" aria-label="Key dates">
+    <div class="wrap">
+      <ul>
+        <li><div class="y">1942</div><div class="t">Gospel work begins at Sataw</div></li>
+        <li><div class="y">1950</div><div class="t">Ordained at Hakha, 14–16 January</div></li>
+        <li><div class="y">1958</div><div class="t">Elected president of the Zo-Matu Association</div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ SCRIPTURE ============ -->
+  <section class="verse" aria-label="Scripture">
+    <blockquote>
+      <p>“Thy word is a lamp unto my feet, and a light unto my path.”</p>
+      <cite>Psalm 119:105</cite>
+    </blockquote>
+  </section>
+
+  <!-- ============ THE LONG WALK ============ -->
+  <section class="walk" id="walk">
+    <div class="wrap">
+      <div class="eyebrow">The Long Walk</div>
+      <h2>Places his feet carried the Word</h2>
+      <p class="intro">He walked everywhere. The written record names these places; the elders still hold the rest of the road. If you know a village he reached, or a family he stayed with, tell us — the trail below will grow.</p>
+
+      <ol class="trail">
+        <li>
+          <div class="station">
+            <div class="yr">1942</div>
+            <h3>Sataw</h3>
+            <p>Where the gospel work began, alongside Rev. Za Ling. He took up the life of an evangelist here.</p>
+          </div>
+        </li>
+        <li>
+          <div class="station">
+            <div class="yr">1950</div>
+            <h3>Hakha</h3>
+            <p>Ordained 14–16 January — the earliest ordination of a Zotung minister in the church history. The Zotung churches then belonged to the Hakha Baptist Association.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="station">
+            <div class="yr open">[Years]</div>
+            <h3>The walking years</h3>
+            <p>[The villages he walked to, how far, who walked with him, and how he was received. This comes from the elders’ memories.]</p>
+          </div>
+        </li>
+        <li>
+          <div class="station">
+            <div class="yr">1957</div>
+            <h3>Rezua</h3>
+            <p>The Zo-Matu Baptist Association was formed here on 3 January. He is named among the Zotung representatives, tied to Lungngo village.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="station">
+            <div class="yr">1958</div>
+            <h3>Tingsi</h3>
+            <p>Elected President of the association at its meeting here on 17 May.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="station">
+            <div class="yr">1966</div>
+            <h3>Lungngo</h3>
+            <p>When the Zotung Baptist Association divided its churches into areas on 4 February, he was named leader of the Lungngo area — a charge he kept for decades.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="station">
+            <div class="yr">1985</div>
+            <h3>Tuphae</h3>
+            <p>On 10 February he took part in the ordination of Rev. Kaw Kung — 43 years after his own work began.</p>
+            <div class="src">Biography of Rev. Kaw Kung, ZCC Maryland</div>
+          </div>
+        </li>
+      </ol>
+
+      <p class="trail-note">
+        Do you know a village, a footpath, or a family he stayed with? <a href="#share">Add it to the trail →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ TIMELINE ============ -->
+  <section class="timeline" id="story">
+    <div class="wrap">
+      <div class="eyebrow eyebrow--light">His story</div>
+      <h2>A life in the record</h2>
+      <p class="intro">Dates come from the written history of the Zotung churches. Items in brackets are still to be filled in by the family and the elders.</p>
+
+      <ol class="tl">
+        <li>
+          <div class="yr open">[Year]</div>
+          <div>
+            <h3>Early life</h3>
+            <p>[Where he was born, his parents, and how he came to faith.]</p>
+          </div>
+        </li>
+        <li>
+          <div class="yr">1942</div>
+          <div>
+            <h3>The work begins at Sataw</h3>
+            <p>At Sataw village he took up gospel work connected with Rev. Za Ling and began his life as an evangelist.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="yr">1950</div>
+          <div>
+            <h3>Ordained at Hakha</h3>
+            <p>Ordained at Hakha on 14 to 16 January 1950 — the earliest ordination of a Zotung minister in the church history. The Zotung churches then belonged to the Hakha Baptist Association.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="yr open">[Years]</div>
+          <div>
+            <h3>The walking years</h3>
+            <p>[The villages he walked to, how far, who walked with him, and how he was received. This comes from the elders’ memories.]</p>
+          </div>
+        </li>
+        <li>
+          <div class="yr">1957</div>
+          <div>
+            <h3>A new association</h3>
+            <p>The Zo-Matu Baptist Association was formed at Rezua on 3 January 1957. He is named among the Zotung representatives and tied to Lungngo village.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="yr">1958</div>
+          <div>
+            <h3>Elected president</h3>
+            <p>Elected President of the association at its meeting in Tingsi on 17 May 1958.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="yr">1966</div>
+          <div>
+            <h3>Shepherd of the Lungngo area</h3>
+            <p>When the Zotung Baptist Association divided its churches into areas on 4 February 1966, he was named leader of the Lungngo area.</p>
+            <div class="src">Zotung church history, Rev. John An Sung</div>
+          </div>
+        </li>
+        <li>
+          <div class="yr">1985</div>
+          <div>
+            <h3>Ordaining the next generation</h3>
+            <p>On 10 February 1985 at Tuphae village he took part in the ordination of Rev. Kaw Kung, 43 years after his own work began.</p>
+            <div class="src">Biography of Rev. Kaw Kung, ZCC Maryland</div>
+          </div>
+        </li>
+        <li>
+          <div class="yr open">[Year]</div>
+          <div>
+            <h3>Later years and homegoing</h3>
+            <p>[His final years, and the date and place of his passing.]</p>
+          </div>
+        </li>
+        <li>
+          <div class="yr">2019</div>
+          <div>
+            <h3>A hall in his name</h3>
+            <p>Rev. Sa Lang Hall opens in Rezua. The banner at the gathering is dated 27 January 2019.</p>
+            <div class="src">Family photographs</div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ THE HALL ============ -->
+  <section class="hall" id="hall">
+    <div class="wrap">
+      <div class="hall-head">
+        <div>
+          <div class="eyebrow">His legacy today</div>
+          <h2>Rev. Sa Lang Hall</h2>
+          <p>Built in his honor in Rezua, the hall gathers the community he spent his life serving. <span style="color:var(--ink-3)">[Who built it, how it was funded, and what it is used for.]</span></p>
+        </div>
+        <div class="sign" aria-hidden="true">REV. SA LANG HALL</div>
+      </div>
+
+      <div class="gallery">
+        <figure class="g-front">
+          <div class="frame">
+            <img src="images/hall-front.jpg"
+                 alt="The front of Rev. Sa Lang Hall: red metal roof and gable, green walls, orange wooden doors, under a clear blue sky"
+                 loading="lazy" decoding="async">
+          </div>
+          <figcaption>The front of the hall, with its name above the doors.</figcaption>
+        </figure>
+
+        <figure class="g-gather">
+          <div class="frame">
+            <img src="images/hall-gathering.jpg"
+                 alt="A large congregation seated on green chairs inside the hall, facing a stage with a banner dated 27.1.2019"
+                 loading="lazy" decoding="async">
+          </div>
+          <figcaption>The gathering inside the hall, 27 January 2019.</figcaption>
+        </figure>
+
+        <figure class="g-valley">
+          <div class="frame">
+            <img src="images/hall-valley.jpg"
+                 alt="The hall seen from across green fields and a stream, with children playing in the grass"
+                 loading="lazy" decoding="async">
+          </div>
+          <figcaption>The hall seen from across the fields. <span style="color:var(--ink-3)">[Confirm when this was taken]</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VOICES ============ -->
+  <section class="voices" id="voices">
+    <div class="wrap">
+      <div class="eyebrow">Voices</div>
+      <h2>Those who remember him</h2>
+      <p class="intro">The records give the dates. The walking, the villages and the hardship live in the memories of the people who knew him. Recordings are in Zotung with English captions.</p>
+
+      <div class="vgrid">
+        <div class="voice">
+          <button class="play" type="button" aria-label="Play recording">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4 L20 12 L7 20 Z" fill="#FFFFFF"/></svg>
+          </button>
+          <div>
+            <div class="who">[Elder’s name]</div>
+            <div class="meta">[Relationship · length]</div>
+          </div>
+        </div>
+
+        <div class="voice">
+          <button class="play" type="button" aria-label="Play recording">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4 L20 12 L7 20 Z" fill="#FFFFFF"/></svg>
+          </button>
+          <div>
+            <div class="who">[His child or grandchild]</div>
+            <div class="meta">[Relationship · length]</div>
+          </div>
+        </div>
+
+        <div class="voice">
+          <button class="play" type="button" aria-label="Play recording">
+            <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4 L20 12 L7 20 Z" fill="#FFFFFF"/></svg>
+          </button>
+          <div>
+            <div class="who">[A pastor he ordained]</div>
+            <div class="meta">[Relationship · length]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ARCHIVE ============ -->
+  <section class="archive" id="archive">
+    <div class="wrap">
+      <div class="eyebrow">The archive</div>
+      <h2>Where he appears in writing</h2>
+      <p class="intro">In these records his name is written “Rev. Sa Lang”.</p>
+
+      <div class="srcs">
+        <article>
+          <div class="d">
+            <h3>Zotung Ram Kriccawbuu Thokeinaw</h3>
+            <p>A history of the Zotung churches by Rev. John An Sung, written for the Zotung Kriccaw Diamond Jubilee Magazine in 2008. It records his work at Sataw, his ordination, his presidency and his leadership of the Lungngo area.</p>
+          </div>
+          <div class="l">
+            <a href="https://www.zccindy.org/post/zotung-christian-history">Read at ZCC Indiana</a>
+            <a href="https://zotungtubenews.com/home/2021/07/29/zotung-ram-kriccawbuu-thokeinaw-phungpaw/">Read at Zotung Tube Channel</a>
+          </div>
+        </article>
+
+        <article>
+          <div class="d">
+            <h3>The life of Rev. Kaw Kung</h3>
+            <p>Names Rev. Sa Lang among those who conducted Rev. Kaw Kung’s ordination at Tuphae village in 1985.</p>
+          </div>
+          <div class="l">
+            <a href="https://zccmd.com/rev-kaw-kung/">Read at ZCC Maryland</a>
+          </div>
+        </article>
+      </div>
+
+      <h3 style="font-size:26px;margin-top:56px">Still looking for</h3>
+      <ul class="wanted">
+        <li>The Jubilee book on Rev. Sa Lang and Rev. Sa Ting</li>
+        <li>The record of his ordination at Hakha, 1950</li>
+        <li>His Bible, letters or sermon notes</li>
+        <li>Photographs of him in the villages of the Lungngo area</li>
+        <li>Names of the villages he walked to on foot</li>
+        <li>The date and place of his passing</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ SHARE ============ -->
+  <section class="share" id="share">
+    <div class="wrap">
+      <div class="intro">
+        <div class="eyebrow">Share a memory</div>
+        <h2>Help us remember him</h2>
+        <p>If you or your family knew Rev. Salang, send a story, a photo, or the name of a village he reached. The family reads every one before it is added.</p>
+      </div>
+
+      <!--
+        TO MAKE THIS FORM WORK:
+        1. Create a free form at https://formspree.io
+        2. Replace REPLACE_WITH_YOUR_ID below with your form ID
+           e.g. action="https://formspree.io/f/xabcdefg"
+        Until you do, the form will just show a thank-you preview.
+      -->
+      <form id="memory-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
+        <label for="f-name">Your name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required>
+
+        <label for="f-village">Your village or church</label>
+        <input id="f-village" name="village" type="text">
+
+        <label for="f-memory">Your memory</label>
+        <textarea id="f-memory" name="memory" rows="6" required></textarea>
+
+        <!-- honeypot: real people never fill this -->
+        <div class="hp" aria-hidden="true">
+          <label for="f-website">Website</label>
+          <input id="f-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+        </div>
+
+        <button class="btn" type="submit">Send to the family</button>
+        <div class="sent" id="sent" hidden role="status">Thank you. Your memory has been sent to the family.</div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Made with love by his family.</span>
+    <span>Dates from the Zotung church history by Rev. John An Sung (2008). · A Zotung translation is being prepared.</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var form = document.getElementById('memory-form');
+  var sent = document.getElementById('sent');
+
+  form.addEventListener('submit', function (e) {
+    var action = form.getAttribute('action') || '';
+
+    // Not wired up yet — show the preview message instead.
+    if (action.indexOf('REPLACE_WITH_YOUR_ID') !== -1) {
+      e.preventDefault();
+      sent.hidden = false;
+      sent.textContent = 'Thank you. This is a preview of the site, so your memory was not sent yet.';
+      return;
+    }
+
+    // Wired up — submit without a page reload.
+    e.preventDefault();
+    var data = new FormData(form);
+    sent.hidden = false;
+    sent.textContent = 'Sending…';
+
+    fetch(action, {
+      method: 'POST',
+      body: data,
+      headers: { Accept: 'application/json' }
+    })
+      .then(function (res) {
+        if (res.ok) {
+          form.reset();
+          sent.textContent = 'Thank you. Your memory has been sent to the family.';
+        } else {
+          sent.textContent = 'Something went wrong. Please try again, or email the family directly.';
+        }
+      })
+      .catch(function () {
+        sent.textContent = 'Something went wrong. Please try again, or email the family directly.';
+      });
+  });
+})();
+</script>
+
+</body>
+</html>
